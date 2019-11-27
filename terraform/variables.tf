@@ -1,5 +1,5 @@
 variable "key_name" {
-  default = "amit-personal-aws"
+  default = "qwerty-key"
 }
 
 variable "pvt_key" {
