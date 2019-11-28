@@ -1,10 +1,6 @@
 variable "key_name" {
   default = "qwerty-key"
-}
-
-variable "public_key" {
-  default = "/root/.ssh/qwerty-key.pub"
-}
+ }
 
 variable "pvt_key" {
   default = "/root/.ssh/qwerty-key.pem"
