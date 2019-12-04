@@ -11,9 +11,7 @@ dir(project_path) {
 stage('Clean Old Packages') {
 sh label: 'Clean', script: 'mvn clean'
 }
-stage('Maven Compile') {
-sh label: 'Comile', script: 'mvn compile'
-}
+
 stage('Maven Test') {
 sh label: 'Testing', script: 'mvn test'
 }
